@@ -4,14 +4,16 @@
     "version": "1.0.0",
     "description": "Extensão Chrome para resumos acadêmicos. Escolha a disciplina, deixe a IA criar o resumo e formate para várias plataformas. Economize tempo, simplifique a vida acadêmica.",
     "icons": {
-      "48": "./assets/imgs/logotipo.jpg",
-      "128": "./assets/imgs/logotipo.jpg"
+      "48": "./ui/assets/imgs/logotipo.jpg",
+      "128": "./ui/assets/imgs/logotipo.jpg"
     },
     "background": {
-        "service_worker":"./src/service_worker.js",
+        "service_worker":"./src/api/service_worker.js",
         "type":"module"
     },
-    "action": {},
+    "action": {
+        "default_popup":"./ui/popup.html"
+    },
     "permissions": [
         "scripting"
     ],
