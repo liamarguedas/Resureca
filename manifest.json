@@ -6,7 +6,7 @@
     "icons": {
       "48": "./assets/imgs/logotipo.jpg",
       "128": "./assets/imgs/logotipo.jpg"
-    }
+    },
     "background": {
         "service_worker":"./src/service_worker.js",
         "type":"module"
@@ -15,5 +15,8 @@
     "permissions": [
         "scripting"
     ],
-    "host_permissions"
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
   }
