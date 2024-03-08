@@ -8,8 +8,8 @@
       "128": "./ui/assets/imgs/logotipo.jpg"
     },
     "background": {
-        "service_worker":"./src/api/service_worker.js",
-        "type":"module"
+        "service_worker": "./src/api/service_worker.js",
+        "type": "module"
     },
     "action": {
         "default_popup":"./ui/popup.html"

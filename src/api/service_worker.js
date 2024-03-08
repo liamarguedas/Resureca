@@ -9,6 +9,7 @@ chrome.action.onClicked.addListener(tab => {
         func: () => {
             alert("__EXTENSION WORKING__");
         }
-    })
+    }
+    )
 }
 )
