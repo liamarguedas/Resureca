@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Resureca",
+    "version": "1.0",
+    "description": "Extensão de exemplo Resureca",
+    "permissions": [
+      "activeTab"
+    ],
+    "browser_action": {
+      "default_popup": "UI/popup.html",
+      "default_icon": "UI/assets/images/logo.png"
+    },
+    "icons": {
+      "16": "UI/assets/images/icon16.png",
+      "48": "UI/assets/images/icon48.png",
+      "128": "UI/assets/images/icon128.png"
+    },
+    "settings_page": "settings.html",
+
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["UI/script/popup.js"]
+      }
+    ],
+    "web_accessible_resources": [
+      "UI/popup.html"
+    ]
+  }
+  

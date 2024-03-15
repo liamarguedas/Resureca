@@ -1,0 +1,116 @@
+
+
+body {
+    font-family: sans-serif;
+    width: 300px;
+    height: 250px;
+    padding: 15px;
+
+    background-color: #DFF8EB;
+}
+
+.title{
+    margin-top: 0;
+    text-align: center;
+    color: #214E34;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#gerarResumo {
+    
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 8px;
+    line-height: 0.1;
+    border-radius: 25px;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s, box-shadow 0.3s, filter 0.3s;
+    border: 1px solid transparent;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 4px;
+    color: #fff;
+    background-color: #15883e;
+    height: 36px;
+}
+
+
+    
+
+#gerarResumo:hover{
+background-color: #1db954;
+}
+
+#configuracoes {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+}
+
+#configuracoes {
+    cursor: pointer;
+    outline: none;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3px; 
+    color: #fff;
+    background-color: #15883e;
+  }
+
+#configuracoes i {
+    font-size: 16px; /* Tamanho do ícone */
+    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
+
+#configuracoes:hover{
+    background-color: #1db954;
+    }
+
+    #return {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        margin: 0;
+    }
+    
+    #return {
+        cursor: pointer;
+        outline: none;
+        cursor: pointer;
+        font-size: 12px;
+        border-radius: 50%;
+        border: 1px solid transparent;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 3px; 
+        color: #fff;
+        background-color: #15883e;
+      }
+    
+    #return i {
+        font-size: 16px; /* Tamanho do ícone */
+        margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+    }
+    
+    
+    #return:hover{
+        background-color: #1db954;
+        }
+    
+    
+      
